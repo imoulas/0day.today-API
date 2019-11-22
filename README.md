@@ -97,3 +97,20 @@ The first two packages are installed through `apt`, `yum` or any other linux pac
 
 ?>
 ```
+
+Also you can use search.py to filter the output.
+
+#### Usage
+```bash
+usage: search.py [-h] [--search SEARCH] [--days DAYS] [--output OUTPUT]
+
+0day.today api
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --search SEARCH  Search text
+  --days DAYS      How many days back, default=30
+  --output OUTPUT  nice/csvm default=nice
+
+```
+
