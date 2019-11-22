@@ -110,7 +110,16 @@ optional arguments:
   -h, --help       show this help message and exit
   --search SEARCH  Search text
   --days DAYS      How many days back, default=30
-  --output OUTPUT  nice/csvm default=nice
+  --output OUTPUT  nice/csv default=nice
+
+
+python search.py --search sql --days 20 --output csv
+Searching 'sql' in 0day.today database
+12-11-2019,php,CBAS-Web 19.0.0 - (id) Boolean-based Blind SQL Injection Vulnerability
+06-11-2019,asp,SD.NET RIM 4.7.3c - (idtyp) SQL Injection Vulnerability
+06-11-2019,php,html5_snmp 1.11 - (Router_ID) SQL Injection Vulnerability
+06-11-2019,php,rimbalinux AhadPOS 1.11 - (alamatCustomer) SQL Injection Vulnerability
+06-11-2019,php,thejshen Globitek CMS 1.4 - (id) SQL Injection Vulnerability
 
 ```
 
